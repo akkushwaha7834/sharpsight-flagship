@@ -1,0 +1,21 @@
+@media (max-width: 786px){
+    .nav_bar_section .site_logo {
+/*        width: 40%;*/
+    }
+    .projects_overview .item {
+        flex: 0 0 50%;
+    }
+    .projects_overview .item{
+        padding: 20px 0;
+    }
+    .countdown{
+        padding: 20px 0;
+        margin-top: 0;
+    }
+    .projects_overview .item p{
+        padding: 0;
+    }
+    .projects_overview .item p.number{
+        font-size: 30px;
+    }
+}
