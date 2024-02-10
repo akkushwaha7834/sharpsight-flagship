@@ -1,6 +1,16 @@
-@media (max-width: 786px){
-    .nav_bar_section .site_logo {
-/*        width: 40%;*/
+@media(min-width: 320px) and (max-width: 767px){
+    .nav_bar_section .site_logo{
+        width: 40%;
+    }
+    .nav_bar_section{
+        padding: 20px 10px;
+    }
+    .web_logo{
+        width: 90%;
+    }
+    .nav_bar_section .cta_top_bar{
+        width: 60%;
+        padding: 0; 
     }
     .projects_overview .item {
         flex: 0 0 50%;
@@ -17,5 +27,15 @@
     }
     .projects_overview .item p.number{
         font-size: 30px;
+    }
+    .dm_image_box{
+        border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: 5px 0 0px;
+    border-color: #006834;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 20px 0px 0;
+    padding: 20px;
     }
 }
