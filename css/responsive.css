@@ -15,9 +15,7 @@
     .about_us{
         padding: 50px 0;
     }
-    #dm_row_two{
-        margin-top: 0!important;
-    }
+
     .projects_overview .item {
         flex: 0 0 50%;
     }

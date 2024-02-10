@@ -4,10 +4,11 @@
 }
 body a{
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
-p{
+/*p{
 	font-family: Montserrat;
-}
+}*/
 .nav_bar_section {
     background: #fff;
     box-shadow: 1px 3px 5px 0px rgb(0 104 52);
@@ -133,8 +134,11 @@ p{
 }
 .copyright {
     padding: 20px 0;
-    background: #fff;
-    box-shadow: 1px 4px 8px 5px #006834;
+    background: #006834;
+    color: #fff;
+}
+.copyright a{
+    color: #fff;
 }
 .copyright_text {
     display: flex;
@@ -143,14 +147,19 @@ p{
     padding: 30px 0 0 0;
 }
 .footer_location {
-    background: #2a303b;
-    padding: 100px 0px;
+    background: #232428;
+    padding: 50px 0px;
     color: #fff;
 }
-.footer_location_col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer_location ul{
+    padding: 0;
+}
+.footer_location ul li{
+    list-style: none;
+}
+.footer_location ul li a{
+    color: #fff;
+    line-height: 30px;
 }
 .banner_ul{
     padding-left: 0;
@@ -158,48 +167,19 @@ p{
 .get_in_touch{
     margin-bottom: 30px;
 }
-.banner_ul .banner_li {
-    list-style: none;
-    font-size: 17px;
-    line-height: 35px;
-    background: url(../images/white-tick.png) no-repeat left 11px;
-    padding: 0 0 0px 30px;
-}
 .about_us{padding: 100px 0}
-.dm_image_box {
-    border-radius: 20px 20px 20px 20px;
-    border-style: solid;
-    border-width: 0 0 5px;
-    border-color: #006834;
-    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
-    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    margin: 50px 0px 0;
-    padding: 20px;
+.services_section{
+    background: url(../images/bg-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+    margin-top: 20px;
 }
-.dm_image_box .dm_box_image {
-    width: 20%;
-    margin-bottom: 20px;
-}
-.dm_box_content h4 {
-    margin-bottom: 20px;
+.services_section h4 a{
+    color: #333333;
     font-size: 20px;
 }
-
-.dm_image_box_one {
-    border-radius: 20px 20px 20px 20px;
-    border-style: solid;
-    border-width: 5px 0 0px;
-    border-color: #006834;
-    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
-    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    margin: 20px 0px 0;
-    padding: 20px;
-}
-
-.dm_image_box_one .dm_box_image {
-    width: 20%;
-    margin-bottom: 20px;
-}
-.dm_row_two {
-    margin-top: 30px!important;
+.services_section h3{
+    color: #333333;
 }
