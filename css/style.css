@@ -152,6 +152,12 @@ p{
     align-items: center;
     justify-content: center;
 }
+.banner_ul{
+    padding-left: 0;
+}
+.get_in_touch{
+    margin-bottom: 30px;
+}
 .banner_ul .banner_li {
     list-style: none;
     font-size: 17px;
