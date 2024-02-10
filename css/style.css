@@ -151,6 +151,9 @@ body a{
     padding: 50px 0px;
     color: #fff;
 }
+.footer_location a{
+    color: #fff;
+}
 .footer_location ul{
     padding: 0;
 }
@@ -182,4 +185,15 @@ body a{
 }
 .services_section h3{
     color: #333333;
+}
+#bttn_form {
+    color: #ffffff;
+    background-color: #006834;
+    border-color: #006834;
+    padding: 10px 30px;
+}
+.close.close_bttn{
+    border: none;
+    font-size: 30px;
+    background: none;
 }

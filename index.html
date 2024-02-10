@@ -63,44 +63,53 @@
       <div class="col-md-12">
         <h3 class="text-center">Our Super Speciality Services</h3>
       </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <h4 class="mb-3">
+          <a href="https://sharpsight.in/cataract-eye-surgery/">Cataract Treatment</a>
+        </h4>
+        <p>Cataract surgeries have now become painless, blade-free and safe! In case you experience blurred, double or poor night vision contact your doctor immediately.</p>
       </div>
-      <div class="row mt-4">
-        <div class="col-md-4">
-          <h4 class="mb-3">
-            <a href="https://sharpsight.in/cataract-eye-surgery/">Cataract Treatment</a>
-          </h4>
-          <p>Cataract surgeries have now become painless, blade-free and safe! In case you experience blurred, double or poor night vision contact your doctor immediately.</p>
-        </div>
-        <div class="col-md-4">
-          <h4 class="mb-3">
-            <a href="https://sharpsight.in/lasik-laser-eye-surgery/">Complete Refractive Solutions</a>
-          </h4>
-          <p>If the burden of glasses or changing contact lenses have been bothering you a bit too much, it’s time to consider investing in LASIK laser eye surgery.</p>
-        </div>
-        <div class="col-md-4">
-          <h4 class="mb-3">
-            <a href="https://sharpsight.in/diabetic-retinopathy-treatment/">Retina Treatment</a>
-          </h4>
-          <p>Treatments like Diabetic Retinopathy, Retinal Detachment, Ruptured Retina, etc., can be cured with laser surgery, without causing damage to the retina.</p>
-        </div>
-        <div class="col-md-4">
-          <h4 class="mb-3">
-            <a href="https://sharpsight.in/glaucoma-treatment/">Glaucoma Treatment</a>
-          </h4>
-          <p>Also referred as “thief in the night”, Glaucoma often shows no early symptoms, and gradually leads to permanent loss of vision.</p>
-        </div>
-        <div class="col-md-4">
-          <h4 class="mb-3">
-            <a href="https://sharpsight.in/cornea-transplant/">Cornea Treatment</a>
-          </h4>
-          <p>The cornea plays a vital role in vision. If the cornea of your eye gets damaged either through infection or injury, do not delay!</p>
-        </div>
-        <div class="col-md-4">
-          <h4 class="mb-3">
-            <a href="https://sharpsight.in/pediatric-ophthalmology/">Pediatric Ophthalmology</a>
-          </h4>
-          <p>To keep your child away from eye disorders, like Squint, Amblyopia, etc., it’s important to identify and treat them at an early age.</p>
-        </div>
+      <div class="col-md-4">
+        <h4 class="mb-3">
+          <a href="https://sharpsight.in/lasik-laser-eye-surgery/">Complete Refractive Solutions</a>
+        </h4>
+        <p>If the burden of glasses or changing contact lenses have been bothering you a bit too much, it’s time to consider investing in LASIK laser eye surgery.</p>
+      </div>
+      <div class="col-md-4">
+        <h4 class="mb-3">
+          <a href="https://sharpsight.in/diabetic-retinopathy-treatment/">Retina Treatment</a>
+        </h4>
+        <p>Treatments like Diabetic Retinopathy, Retinal Detachment, Ruptured Retina, etc., can be cured with laser surgery, without causing damage to the retina.</p>
+      </div>
+      <div class="col-md-4">
+        <h4 class="mb-3">
+          <a href="https://sharpsight.in/glaucoma-treatment/">Glaucoma Treatment</a>
+        </h4>
+        <p>Also referred as “thief in the night”, Glaucoma often shows no early symptoms, and gradually leads to permanent loss of vision.</p>
+      </div>
+      <div class="col-md-4">
+        <h4 class="mb-3">
+          <a href="https://sharpsight.in/cornea-transplant/">Cornea Treatment</a>
+        </h4>
+        <p>The cornea plays a vital role in vision. If the cornea of your eye gets damaged either through infection or injury, do not delay!</p>
+      </div>
+      <div class="col-md-4">
+        <h4 class="mb-3">
+          <a href="https://sharpsight.in/pediatric-ophthalmology/">Pediatric Ophthalmology</a>
+        </h4>
+        <p>To keep your child away from eye disorders, like Squint, Amblyopia, etc., it’s important to identify and treat them at an early age.</p>
+      </div>
+    </div>
+    <div class="row mt-4 text-center">
+      <div class="col-md-6">
+        <button type="button" class="theme-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-calendar" aria-hidden="true"></i>
+            Book an Appointment
+          </button>
+      </div>
+      <div class="col-md-6">
+        <a href="tel:+919641919191" class="theme-btn"><i class="fa fa-phone" aria-hidden="true"></i> 9641-919191</a>
       </div>
     </div>
   </div>
@@ -240,5 +249,39 @@
   </div>
 </section>
 <!-- Copyright Section End -->
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Request an Appointment</h4>
+        <button type="button" class="close close_bttn" data-dismiss="modal">×</button>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+       <form method="POST" name="Consult to Doctors" action="call_back.php">
+        <div class="form-group mb-3">
+          <input type="text" class="form-control" name="your_name" id="your_name" aria-describedby="emailHelp" placeholder="Enter Your Name" required="">
+        </div>
+        <div class="form-group mb-3">
+          <input type="tel" class="form-control" name="mobile_number" id="mobile_number" placeholder="Enter Mobile No." required="">
+        </div>
+        <div class="form-group mb-3">
+          <input type="email" class="form-control" name="email_id" id="email_id" placeholder="Enter Email Address" required="">
+        </div>
+        <div class="form-group mb-3">
+          <textarea class="form-control" name="customer_query" id="cistomer_query" placeholder="Your Query"></textarea>
+        </div>
+        <button type="submit" name="submit" class="btn btn-primary" id="bttn_form">Submit</button>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
