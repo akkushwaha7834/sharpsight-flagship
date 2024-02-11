@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
     $mobile = $_POST['mobile_number'];
     $customer_query = $_POST['customer_query'];
 
-    $subject = "Book OPD at ₹ 99";
+    $subject = "Enquiry Flagship Centre | Sharpsight";
     $message = "Name:- ". $name . "\n\n" . "Email:- ". $from. "\n\n" . "Mobile Number:- " . $mobile. "\n\n". "Query:- ".$_POST['customer_query'];
 
     $headers = "From:" . $from;
