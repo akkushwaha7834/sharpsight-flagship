@@ -153,6 +153,11 @@ body a{
 }
 .footer_location a{
     color: #fff;
+    transition: all ease .3s;
+}
+.footer_location a:hover{
+    color: #006834;
+    transition: all ease .3s;
 }
 .footer_location ul{
     padding: 0;
@@ -185,6 +190,9 @@ body a{
 }
 .services_section h3{
     color: #333333;
+}
+.services_section img{
+    width: 20%;
 }
 #bttn_form {
     color: #ffffff;
